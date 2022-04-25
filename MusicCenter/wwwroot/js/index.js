@@ -29,7 +29,7 @@ function searchMusic() {
 //展示数据
 function showResult(data) {
   songlist = data.result.songs;
-  var html = "<tr><td><h3>歌名</h3></td><td><h3>歌手</h3></td><td><h3>----</h3></td></tr>";
+  var html = "<tr><td><h3>歌名</h3></td><td><h3>歌手</h3></td><td><h3>操作</h3></td></tr>";
 
   for (var i = 0; i < songlist.length; i++) {
     var song = songlist[i];
