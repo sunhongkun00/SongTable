@@ -3,7 +3,7 @@
 const request = require("request");
 const mpg = require('mpg123');
 
-var loginUrl = "http://localhost:3000/login/cellphone?phone=18135752353&password=shk5670012";
+var loginUrl = "http://localhost:3000/login/cellphone?phone=15937905153&password=lxy15937905153";
 var searchUrl = "http://localhost:3000/search?keywords=";
 
 var cookies,songUrl,currentMusic = null;
